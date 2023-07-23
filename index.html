@@ -8,11 +8,11 @@
 </head>
 <body>
     <!-- nav-bar -->
-    <header class="bg-[#FFFBF0] flex justify-between items-center py-16 px-32">
-        <div class="w-1/4 h-12">
+    <header class="bg-[#FFFBF0] flex flex-col justify-between items-center py-16 px-32 sm:flex-row"> 
+        <div class="pb-4 sm:w-1/4">
             <img src="./icons/logo.png" alt=""  >
         </div>
-        <div class="flex gap-x-10 text-xl font-normal">
+        <div class="flex flex-col gap-x-10 text-xl font-normal sm:flex-row">
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">About Us</a>
@@ -21,9 +21,9 @@
     </header>
     <main>
     <!-- banner section -->
-        <section class="bg-[#FFFBF0] flex px-32 py-16 justify-start items-center">
-            <div class="w-1/2">
-                <h1 class=" text-7xl font-normal pb-7">
+        <section class="bg-[#FFFBF0] flex flex-col px-2 py-1 gap-8 justify-start items-center sm:flex-row sm:py-16 sm:px-32">
+            <div class="w-auto sm:w-1/2"> 
+                <h1 class="text-5xl font-normal pb-7 sm:text-7xl ">
                     <span class="text-[#FABE4C]">Be the Penguins</span> <br>of Winter
                 </h1>
                 <p class=" text-lg font-normal text-[#3E3E3E]">
@@ -42,11 +42,11 @@
             </div>
         </section>
     <!-- woman jacket section -->
-        <section class="px-32 py-16">
-            <h1 class="text-5xl font-normal pb-16 uppercase">
+        <section class="p-4 sm:px-32 sm:py-16">
+            <h1 class="text-4xl sm:text-5xl font-normal uppercase sm:pb-10">
                 woman jacket 
             </h1>
-            <div class="grid-cols-1 gap-5 sm:grid grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-10">
                 <div class="p-5 shadow-lg rounded-xl">
                     <img src="./images/jacket-1.png" alt="" class="bg-[#d9d9d9] rounded-xl p-8 ">
                     <h3 class="text-2xl font-bold text-[#3E3E3E]">
@@ -110,11 +110,11 @@
             </div>
         </section>
     <!-- man jacket section -->
-        <section class="px-32 py-16">
-            <h1 class="text-5xl font-normal pb-16 uppercase">
+        <section class="p-4 sm:px-32 sm:py-16">
+            <h1 class="text-5xl font-normal pb-10 uppercase">
                 man jacket 
             </h1>
-            <div class="grid-cols-1 gap-5 sm:grid grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-10">
                 <div class="p-5 shadow-lg rounded-xl">
                     <img src="./images/jacket-4.png" alt="" class="bg-[#d9d9d9] rounded-xl p-8 ">
                     <h3 class="text-2xl font-bold text-[#3E3E3E]">
@@ -173,6 +173,50 @@
                               </svg>                      
                             Buy Now
                         </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- why us section -->
+        <section class="flex flex-col sm:flex-row-reverse sm:justify-between p-4 sm:px-32 sm:py-16">
+            <div class="p-4 sm:w-5/6">
+                <img src="./images/shopping.png" alt="">
+            </div>
+            <div class="grid grid-cols-1 gap-5 sm:gap-10 sm:w-3/6">
+                <div class="p-10 flex flex-col justify-center items-center gap-3 shadow-lg rounded-xl sm:flex-row sm:p-3">
+                    <img src="./icons/box.png" alt="" class="w-1/5">
+                    <div>
+                        <h2 class="text-2xl font-bold text-center">
+                            Find the Perfect Fit
+                        </h2>
+                        <p class="text-base font-normal text-center">
+                            Everybody is different, which is why we
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-10 flex flex-col justify-center items-center gap-3 shadow-lg rounded-xl sm:flex-row sm:p-3">
+                    <img src="./icons/box.png" alt="" class="w-1/5">
+                    <div>
+                        <h2 class="text-2xl font-bold text-center">
+                            Find the Perfect Fit
+                        </h2>
+                        <p class="text-base font-normal text-center">
+                            Everybody is different, which is why we
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-10 flex flex-col justify-center items-center gap-3 shadow-lg rounded-xl sm:flex-row sm:p-3">
+                    <img src="./icons/box.png" alt="" class="w-1/5">
+                    <div>
+                        <h2 class="text-2xl font-bold text-center">
+                            Find the Perfect Fit
+                        </h2>
+                        <p class="text-base font-normal text-center">
+                            Everybody is different, which is why we
+                            offer styles for every body.
+                        </p>
                     </div>
                 </div>
             </div>
